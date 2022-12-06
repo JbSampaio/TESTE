@@ -22,6 +22,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 Para instalar o tahechitservice, siga estas etapas:
 
 1. Clone o projeto em sua máquina.
+
 ```
 git clone <url do repositorio>
 ```
