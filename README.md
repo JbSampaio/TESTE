@@ -22,12 +22,12 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o tahechitservice, siga estas etapas:
 
-1.Clone o projeto em sua máquina.
+1. Clone o projeto em sua máquina.
 
 ```
 git clone <url do repositorio>
 ```
-2.Crie a virtualenv.
+2. Crie a virtualenv.
 
 ![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 ```
@@ -105,7 +105,7 @@ Local onde a sua 'venv' está, certifique que está ou será criada, verifique s
 
 Após isso é só clicar em 'Ok' e deixar a IDE trabalhar e fazer a indexação do interpretador. 
 
-3.Instale os pacotes requeridos.
+3. Instale os pacotes requeridos.
 ```
 pip install -r requirements-dev.txt
 ```
@@ -147,13 +147,13 @@ print(get_random_secret_key())
 * Pronto, a sua SECRET_KEY será gerada na tela do console, é só copiar e colar no local de destino dentro do seu arquivo '.env'
 
 
-4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
+4. Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
 ```
 python manage.py migrate
 ```
 
-4.1Você pode criar um banco de sua preferencia: PostgresSQL, MySQL, MongoBD, MariaDB. Fica ao seu critério, contanto que siga a recomendação da documentação do Django.
+4.1 Você pode criar um banco de sua preferencia: PostgresSQL, MySQL, MongoBD, MariaDB. Fica ao seu critério, contanto que siga a recomendação da documentação do Django.
 Por exemplo: Conectando o projeto com o banco [PostgreSQL](https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8).
 
 Adicione ao seu arquivo '.env' a seguinte variavel de ambiente: 
@@ -183,7 +183,7 @@ python manage.py migrate
 ```
 
 
-5.Start o servidor
+5. Start o servidor
 
 ```
 python manage.py runserver
