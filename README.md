@@ -134,8 +134,17 @@ Abra o Python Console dentro da sua IDE, rode o comando:
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f7a2efb36fa0013ed37f6.png" alt="Python Console">
 
 ```
+from django.core.management.utils import get_random_secret_key
+```
+
+Após importar o get_random_secret_key, rode o segundo comando: 
 
 ```
+print(get_random_secret_key())
+```
+
+Pronto, a sua SECRET_KEY será gerada na tela do console, é só copiar e colar no local de destino dentro do seu arquivo '.env'
+
 
 4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
