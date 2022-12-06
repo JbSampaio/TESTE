@@ -28,12 +28,12 @@ git clone <url do repositorio>
 ```
 2.Crie a virtualenv.
 
-Linux:
+![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black):
 ```
 python3 -m venv venv
 source/bin/activate
 ```
-Windows:
+![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white):
 
 Será necessário uma configuração via powershell, para a sua venv ativar imediatamente quando fechar o projeto.
 
