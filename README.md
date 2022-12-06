@@ -436,4 +436,4 @@ Levando em consideração que você seja o responsável pelo gerenciamento do pr
 heroku login
 ```
 
-O comando “heroku login” é utilizado para autenticar seu usuário no CLI. Caso não saiba o usuário, entre em contato com o [Gestor](https://mail.google.com/mail/u/1/?ogbl#inbox?compose=jrjtXSpkGFBMPVSJJKnzMdVNNRXvnmlRkZbHcZcchjpPXFRkgzHKnWQTNTJcKHlxZKnksQrR).
+O comando “heroku login” é utilizado para autenticar seu usuário no CLI. Caso não saiba o usuário, entre em contato com o [Gestor](https://mail.google.com/mail/u/1/?ogbl#inbox?compose=mailto:vinicius@tahech.com?cc=jonatas@tahech.com&subject=Usu%C3%A1rio%20e%20Senha%20-%20Heroku&body=Prezados%2C%0D%0A%0D%0ASolicito%20o%20usu%C3%A1rio%20e%20senha%20do%20heroku%2C%20para%20configura%C3%A7%C3%A3o%20do%20CLI.).
