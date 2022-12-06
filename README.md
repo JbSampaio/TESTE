@@ -201,4 +201,8 @@ Após abrir o 'Edit Configurations...' clique em 'Add New' e selecione 'Django S
 
 Após selecionar 'Django Server' revise as configurações:
 
+* Renomeei o nome do servidor.  
+* Verifique se o Python interpreter está apontando corretamente para a sua venv.
+* Verifique se 'Add content' e 'Add source' estão marcadas. 
+
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f956abc7372002c99c6bd.png" alt="Django Server">
