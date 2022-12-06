@@ -5,7 +5,7 @@
 
 
 Trata-se de um sistema baseado em microsserviços, para uso do escritório, utilizando soluções tecnologicas já desenvolvidas pela equipe de TI da Tahech Advogados.
-O sistema está online através do link: `<https://tahechitservice.herokuapp.com/>`
+O sistema está online através do link: [Tahech | IT Service](<https://tahechitservice.herokuapp.com/>)
 
 
 ## 💻 Pré-requisitos
