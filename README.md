@@ -429,3 +429,11 @@ Após isso é só clicar no 'Ok' e verificar se a configuração do servidor deu
 ## :gear: Configurando Heroku - Para atualizar o projeto
 
 Levando em consideração que você seja o responsável pelo gerenciamento do projeto, e já tenha instalado o [Heroku CLI](https://github.com/JbSampaio/TESTE/blob/main/README.md#-pr%C3%A9-requisitos), reiniciado sua máquina para adiciona-lo ao path do SO. Siga o passo a passo a seguir. 
+
+* Abra o terminal da sua IDE e rode o seguinte comando: 
+
+```
+heroku login
+```
+
+O comando “heroku login” é utilizado para autenticar seu usuário no CLI. Caso não saiba o usuário, entre em contato com o [Gestor]().
