@@ -35,7 +35,7 @@ source/bin/activate
 ```
 ![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white)
 
-Será necessário uma configuração via powershell, para a sua venv ativar imediatamente quando fechar o projeto.
+Será necessário uma configuração via powershell, para a sua venv ficar ativa sempre após fechar o projeto e abrir o terminal da IDE.
 
 1.1 Abra o powershell como administrador
 
