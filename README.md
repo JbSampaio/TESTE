@@ -12,10 +12,10 @@ O sistema está online através do link: [Tahech | IT Service](<https://tahechit
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
-* Você instalou o Git ? Caso não tenha instalado segue o link [Git 64-bit](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) [Git 32-bit](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-32-bit.exe).
-* Você instalou a versão 3.10.8 do Python? Caso não tenha instalado segue o link [Python 3.10.8 64-bit](https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe) [Python 3.10.8 32-bit](https://www.python.org/ftp/python/3.10.8/python-3.10.8.exe).
-* Esse projeto foi desenvolvido em SO `<Windows>`. Ainda serão feitos testes no SO Linux, em breve conterá informações de como configurar em sistemas Linux.
-* Você irá gerir o projeto sozinho? Caso você seja o responsável por gerir o projeto haverá a necessidade de instalar o CLI do Heroku? Caso não tenha instalado segue o link para instalação [Heroku CLI 64-bit](https://cli-assets.heroku.com/heroku-x64.exe) [Heroku CLI 32-bit](https://cli-assets.heroku.com/heroku-x86.exe).
+* Você instalou o Git ? Caso não tenha instalado segue o link [Git 64-bit](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-64-bit.exe) / [Git 32-bit](https://github.com/git-for-windows/git/releases/download/v2.38.1.windows.1/Git-2.38.1-32-bit.exe).
+* Você instalou a versão 3.10.8 do Python? Caso não tenha instalado segue o link [Python 3.10.8 64-bit](https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe) / [Python 3.10.8 32-bit](https://www.python.org/ftp/python/3.10.8/python-3.10.8.exe).
+* Esse projeto foi desenvolvido em SO ![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white). Ainda serão feitos testes no SO Linux, em breve conterá informações de como configurar em sistemas Linux.
+* Você irá gerir o projeto sozinho? Caso você seja o responsável por gerir o projeto haverá a necessidade de instalar o CLI do Heroku? Caso não tenha instalado segue o link para instalação [Heroku CLI 64-bit](https://cli-assets.heroku.com/heroku-x64.exe) / [Heroku CLI 32-bit](https://cli-assets.heroku.com/heroku-x86.exe).
 * Caso você não faça o gerenciamento sozinho do projeto, pode dispensar a instalação do Heroku CLI.
 
 ## 🚀 Instalando Tahech | IT Service
