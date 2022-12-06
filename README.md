@@ -107,6 +107,11 @@ Após isso é só clicar em 'Ok' e deixar a IDE trabalhar e fazer a indexação 
 3.Instale os pacotes requeridos.
 ```
 pip install -r requirements-dev.txt
+
+
+# .env
+
+
 ```
 4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
