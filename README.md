@@ -114,7 +114,8 @@ pip install -r requirements-dev.txt
 python manage.py migrate
 ```
 
-4.1Você pode configurar um banco de sua preferencia: ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+4.1Você pode criar um banco de sua preferencia: PostgresSQL, MySQL, MongoBD, MariaDB. Fica ao seu critério, contanto que siga a recomendação da documentação do Django.
+Por exemplo: Conectando o projeto com o banco [PostgreSQL](https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8).
 
 ```
 python manage.py migrate
