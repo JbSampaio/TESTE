@@ -143,7 +143,7 @@ Após importar o get_random_secret_key, rode o segundo comando:
 print(get_random_secret_key())
 ```
 
-Pronto, a sua SECRET_KEY será gerada na tela do console, é só copiar e colar no local de destino dentro do seu arquivo '.env'
+* Pronto, a sua SECRET_KEY será gerada na tela do console, é só copiar e colar no local de destino dentro do seu arquivo '.env'
 
 
 4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
