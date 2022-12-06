@@ -210,3 +210,6 @@ Após selecionar 'Django Server' revise as configurações:
 Após isso é só clicar no 'Ok' e verificar se a configuração do servidor deu certo, ficando a mesma forma como no imagem, é só clicar no 'play' e esperar o servidor startar. 
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f96c86d21cd0016badb88.png" alt="Finish">
+
+
+## :gear: Configurando ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
