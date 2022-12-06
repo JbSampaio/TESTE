@@ -27,7 +27,7 @@ Para instalar o tahechitservice, siga estas etapas:
 ```
 git clone <url do repositorio>
 ```
-2. Crie a virtualenv.
+## 2. Crie a virtualenv.
 
 ![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
 ```
@@ -38,23 +38,23 @@ source/bin/activate
 
 Será necessário uma configuração via powershell, para a sua venv ficar ativa sempre após fechar o projeto e abrir o terminal da IDE.
 
-1.1 Abra o powershell como administrador
+2.1 Abra o powershell como administrador
 
-1.2 Execute esse comando:
+2.2 Execute esse comando:
 
 ```
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 ```
 
-1.3 Ao executar o comando digite 'S' ou 's' para aceitar. Em seguida feche o terminal do powershell e abra sua IDE. 
+2.3 Ao executar o comando digite 'S' ou 's' para aceitar. Em seguida feche o terminal do powershell e abra sua IDE. 
 
-1.4 Com a IDE(VS Code ou Pycharm, recomendo a segunda IDE) aberta, abra o terminal da IDE e execute esse comando para criar sua venv:
+2.4 Com a IDE(VS Code ou Pycharm, recomendo a segunda IDE) aberta, abra o terminal da IDE e execute esse comando para criar sua venv:
 
 ```
 python -m venv venv
 ```
 
-1.5 Com a sua venv criada, execute esse comando para ativa-la:
+2.5 Com a sua venv criada, execute esse comando para ativa-la:
 
 ```
 .\venv\Scripts\activate
@@ -67,21 +67,21 @@ Indicando que a sua venv está ativa. Feche o terminal e abra novamente, para as
 (venv) PS C:\Users\jonat\PycharmProjects\tahechitservice>
 ```
 
-1.7 Outra forma de ativar a sua venv é pela propria IDE (Pycharm), essa opção pode ser feita tanto em sistemas Linux e Windows:
+2.7 Outra forma de ativar a sua venv é pela propria IDE (Pycharm), essa opção pode ser feita tanto em sistemas Linux e Windows:
 
-1.7.1 Procure no canto inferior direito da sua IDE (Pycharm) por 'No interpreter':
+2.7.1 Procure no canto inferior direito da sua IDE (Pycharm) por 'No interpreter':
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f8d900722002ab3ca18.png" alt="<No interpreter>">
 
-1.7.2 Clique em 'Interpreter Settings...':
+2.7.2 Clique em 'Interpreter Settings...':
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f8f30ae430016c49644.png" alt="Interpreter Settings">
 
-1.7.3 Clique em 'Add Interpreter > Add Local Interpreter...':
+2.7.3 Clique em 'Add Interpreter > Add Local Interpreter...':
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f94ebf05b000cb5757d.png" alt="Add Interpreter">
 
-1.7.4 Verifique 'Environment', 'Location' e 'Base interpreter':
+2.7.4 Verifique 'Environment', 'Location' e 'Base interpreter':
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f96052c41000ce1e125.png" alt="Add Interpreter Config">
 
@@ -105,7 +105,7 @@ Local onde a sua 'venv' está, certifique que está ou será criada, verifique s
 
 Após isso é só clicar em 'Ok' e deixar a IDE trabalhar e fazer a indexação do interpretador. 
 
-3. Instale os pacotes requeridos.
+## 3. Instale os pacotes requeridos.
 ```
 pip install -r requirements-dev.txt
 ```
@@ -147,7 +147,7 @@ print(get_random_secret_key())
 * Pronto, a sua SECRET_KEY será gerada na tela do console, é só copiar e colar no local de destino dentro do seu arquivo '.env'
 
 
-4. Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
+## 4. Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
 ```
 python manage.py migrate
@@ -183,7 +183,7 @@ python manage.py migrate
 ```
 
 
-5. Start o servidor
+## 5. Start o servidor
 
 ```
 python manage.py runserver
