@@ -88,13 +88,13 @@ Indicando que a sua venv está ativa. Feche o terminal e abra novamente, para as
 - Environment: 
 
 ```
-Terá duas opções, 'Existing' ou 'New' por padrão quando não tem uma venv já criado no seu projeto a opção estará marcada com 'New', e a IDE será responsavel por criar.
+Terá duas opções, 'Existing' ou 'New' por padrão quando não tem uma venv já criada no seu projeto a opção estará marcada com 'New', e a IDE será responsavel por criar.
 ```
 
 - Location:
 
 ```
-Local onde a sua 'venv' está, certifique que está dentro do seu projeto. 
+Local onde a sua 'venv' está, certifique que está ou será criada, verifique se está dentro do seu projeto. 
 ```
 
 - Base interpreter:
