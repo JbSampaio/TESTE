@@ -128,6 +128,14 @@ EMAIL_HOST_PASSWORD=
 ```
 * Contate o Gestor ou o Desenvolvedor do projeto para ele lhe fornecer as keys das variáveis de ambiente.
 * O arquivo '.env' não deve conter no seu repositório do github pois o mesmo leva informações sensiveis de outras conexões externas que o projeto necessita.
+* Cada projeto django necessita de uma SECRET_KEY, você pode criar a sua dessa forma:
+Abra o Python Console dentro da sua IDE, rode o comando:
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f7a2efb36fa0013ed37f6.png" alt="Python Console">
+
+```
+
+```
 
 4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
