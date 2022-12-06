@@ -188,3 +188,5 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+5.1 Você pode configurar o start do servidor direto na IDE(Pycharm), da seguinte forma
