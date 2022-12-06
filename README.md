@@ -426,4 +426,6 @@ Após isso é só clicar no 'Ok' e verificar se a configuração do servidor deu
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f96c86d21cd0016badb88.png" alt="Finish">
 
 
-## :gear: Configurando Heroku
+## :gear: Configurando Heroku - Para atualizar o projeto
+
+Levando em consideração que você seja o responsável pelo gerenciamento do projeto, e já tenha instalado o [Heroku CLI](), reiniciado sua máquina para adiciona-lo ao path do SO. Siga o passo a passo a seguir. 
