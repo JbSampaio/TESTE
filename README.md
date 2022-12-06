@@ -111,6 +111,21 @@ pip install -r requirements-dev.txt
 
 # .env
 
+* Crie na raiz do projeto um arquivo '.env' esse arquivo será responsável pelas variaves de ambiente do projeto.
+* O mesmo deve conter as seguintes variaves para funcionamento do projeto:
+
+```
+SECRET_KEY=
+DEBUG=
+ALLOWED_HOSTS=
+SITE_HOST=
+
+GOOGLE_OAUTH_CLIENT_ID=
+GOOGLE_OAUTH_SECRET=
+
+EMAIL_HOST_USER=
+EMAIL_HOST_PASSWORD=
+```
 
 4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
