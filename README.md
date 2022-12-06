@@ -127,7 +127,7 @@ EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 ```
 * Contate o Gestor ou o Desenvolvedor do projeto para ele lhe fornecer as keys das variáveis de ambiente.
-* O arquivo '.env' não deve conter no github pois o mesmo leva informações sensiveis de outras conexões externas que o projeto necessita.
+* O arquivo '.env' não deve conter no seu repositório do github pois o mesmo leva informações sensiveis de outras conexões externas que o projeto necessita.
 
 4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
