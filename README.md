@@ -428,4 +428,4 @@ Após isso é só clicar no 'Ok' e verificar se a configuração do servidor deu
 
 ## :gear: Configurando Heroku - Para atualizar o projeto
 
-Levando em consideração que você seja o responsável pelo gerenciamento do projeto, e já tenha instalado o [Heroku CLI](), reiniciado sua máquina para adiciona-lo ao path do SO. Siga o passo a passo a seguir. 
+Levando em consideração que você seja o responsável pelo gerenciamento do projeto, e já tenha instalado o [Heroku CLI](https://github.com/JbSampaio/TESTE/blob/main/README.md#-pr%C3%A9-requisitos), reiniciado sua máquina para adiciona-lo ao path do SO. Siga o passo a passo a seguir. 
