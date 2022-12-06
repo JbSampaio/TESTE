@@ -206,3 +206,7 @@ Após selecionar 'Django Server' revise as configurações:
 * Verifique se 'Add content' e 'Add source' estão marcadas. 
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f956abc7372002c99c6bd.png" alt="Django Server">
+
+Após isso é só clicar no 'Ok' e verificar se a configuração do servidor deu certo, ficando a mesma forma como no imagem, é só clicar no 'play' e esperar o servidor startar. 
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f96c86d21cd0016badb88.png" alt="Finish">
