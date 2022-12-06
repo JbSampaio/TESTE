@@ -69,7 +69,7 @@ Indicando que a sua venv está ativa. Feche o terminal e abra novamente, para as
 
 1.7 Outra forma de ativar a sua venv é pela propria IDE (Pycharm), essa opção pode ser feita tanto em sistemas Linux e Windows:
 
-1.7.1 Procure no canto inferior direito da sua IDE (Pycharm) por '<No interpreter>':
+1.7.1 Procure no canto inferior direito da sua IDE (Pycharm) por 'No interpreter':
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f8d900722002ab3ca18.png" alt="<No interpreter>">
 
