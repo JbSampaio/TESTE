@@ -108,13 +108,20 @@ Após isso é só clicar em 'Ok' e deixar a IDE trabalhar e fazer a indexação 
 ```
 pip install -r requirements-dev.txt
 ```
-4.Criar banco de dados (Eu fiz a utilizando do postgresql, mas você pode ficar a vontade para usar o banco que desejar).
+4.Crie banco de dados (Por padrão ele criará um banco SQlite, já vem pré-definido nas configurações(settings.py) de todo projeto django).
 
-```bash
-  python manage.py migrate
 ```
+python manage.py migrate
+```
+
+4.1Você pode configurar um banco de sua preferencia: ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+```
+python manage.py migrate
+```
+
 5.Start o servidor
 
-```bash
-  python manage.py runserver
+```
+python manage.py runserver
 ```
