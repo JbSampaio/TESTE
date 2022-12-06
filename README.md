@@ -176,6 +176,13 @@ Exemplos de outras conexões com outros bancos:
 | Oracle  | jango.db.backends.oracle  | oracle://USER:PASSWORD@HOST:PORT/NAME  |
 
 
+Após fazer a sua configuração rode o comando para migrar e criar as tabelas do projeto:
+
+```
+python manage.py migrate
+```
+
+
 5.Start o servidor
 
 ```
