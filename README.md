@@ -79,9 +79,9 @@ Indicando que a sua venv está ativa. Feche o terminal e abra novamente, para as
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f94ebf05b000cb5757d.png" alt="Add Interpreter">
 
-1.7.4 Verifique se está o 'Environment', 'Location' e 'Base interpreter':
+1.7.4 Verifique 'Environment', 'Location' e 'Base interpreter':
 
-<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f9269d546000d4047d3.png" alt="Add Interpreter Config">
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f96052c41000ce1e125.png" alt="Add Interpreter Config">
 
 - Environment: 
 
