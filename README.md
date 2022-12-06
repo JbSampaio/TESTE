@@ -189,4 +189,16 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-5.1 Você pode configurar o start do servidor direto na IDE(Pycharm), da seguinte forma
+5.1 Você pode configurar o start do servidor direto na IDE(Pycharm), da seguinte forma: 
+
+Procure na IDE por 'Current File' e clique em 'Edit Configurations...':
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f9407f9ccba000d8bbd02.png" alt="Edit Configurations">
+
+Após abrir o 'Edit Configurations...' clique em 'Add New' e selecione 'Django Server':
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f940a6cbb720018144b2c.png" alt="Edit Configurations">
+
+Após selecionar 'Django Server' revise as configurações:
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f956abc7372002c99c6bd.png" alt="Django Server">
