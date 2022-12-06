@@ -1,1 +1,119 @@
-# TESTE
+# Tahech IT Service
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+
+
+Trata-se de um sistema baseado em microsserviços, para uso do escritório, utilizando soluções tecnologicas já desenvolvidas pela equipe de TI da Tahech Advogados.
+O sistema está online através do link: `<https://tahechitservice.herokuapp.com/>`
+
+
+## 💻 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+<!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
+* Você instalou a versão 3.10.8 do Python? Caso não tenha instalado segue o link [Heroki CLI](https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe).
+* Esse projeto foi desenvolvido em SO `<Windows>`. Ainda serão feitos testes no SO Linux, em breve conterá informações de como configurar em sistemas Linux.
+* Você irá gerir o projeto sozinho? Caso você seja o responsável por gerir o projeto haverá a necessidade de instalar o CLI do Heroku? Caso não tenha instalado segue o link para instalação [Python 3.10.8](https://cli-assets.heroku.com/heroku-x64.exe).
+* Caso você não faça o gerenciamento sozinho do projeto, pode dispensar a instalação do Heroku CLI.
+
+## 🚀 Instalando Tahech | IT Service
+
+Para instalar o tahechitservice, siga estas etapas:
+
+1. Clone o projeto em sua máquina.
+```
+git clone <url do repositorio>
+```
+2. Crie a virtualenv.
+
+Linux:
+```
+python3 -m venv venv
+source/bin/activate
+```
+Windows:
+
+Será necessário uma configuração via powershell, para a sua venv ativar imediatamente quando fechar o projeto.
+
+1.1 Abra o powershell como administrador
+
+1.2 Execute esse comando:
+
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+1.3 Ao executar o comando digite 'S' ou 's' para aceitar. Em seguida feche o terminal do powershell e abra sua IDE. 
+
+1.4 Com a IDE(VS Code ou Pycharm, recomendo a segunda IDE) aberta, abra o terminal da IDE e execute esse comando para criar sua venv:
+
+```
+python -m venv venv
+```
+
+1.5 Com a sua venv criada, execute esse comando para ativa-la:
+
+```
+.\venv\Scripts\activate
+```
+
+1.6 Após ativação da sua venv, seu terminal deverá está dessa forma:
+Indicando que a sua venv está ativa. Feche o terminal e abra novamente, para assegurar que sua venv está ativa. 
+
+```
+(venv) PS C:\Users\jonat\PycharmProjects\tahechitservice>
+```
+
+1.7 Outra forma de ativar a sua venv é pela propria IDE (Pycharm), essa opção pode ser feita tanto em sistemas Linux e Windows:
+
+1.7.1 Procure no canto inferior direito da sua IDE (Pycharm) por '<No interpreter>':
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f8d900722002ab3ca18.png" alt="<No interpreter>">
+
+1.7.2 Clique em 'Interpreter Settings...':
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f8f30ae430016c49644.png" alt="Interpreter Settings">
+
+1.7.3 Clique em 'Add Interpreter > Add Local Interpreter...':
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f94ebf05b000cb5757d.png" alt="Add Interpreter">
+
+1.7.4 Verifique se está o 'Environment', 'Location' e 'Base interpreter':
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f4f9269d546000d4047d3.png" alt="Add Interpreter Config">
+
+- Environment: 
+
+```
+Terá duas opções, 'Existing' ou 'New' por padrão quando não tem uma venv já criado no seu projeto a opção estará marcada com 'New', e a IDE será responsavel por criar.
+```
+
+- Location:
+
+```
+Local onde a sua 'venv' está, certifique que está dentro do seu projeto. 
+```
+
+- Base interpreter:
+
+```
+É a base do seu interpretador, de qual versão do python ele será criado, certifique-se de está na versão que você instalou no seu SO e a mesma verão do projeto.
+```
+
+Após isso é só clicar em 'Ok' e deixar a IDE trabalhar e fazer a indexação do interpretador. 
+
+3.Instale os pacotes requeridos.
+```
+pip install -r requirements-dev.txt
+```
+4. Criar banco de dados (Eu fiz a utilizando do postgresql, mas você pode ficar a vontade para usar o banco que desejar).
+
+```bash
+  python manage.py migrate
+```
+5. Start o servidor
+
+```bash
+  python manage.py runserver
+```
