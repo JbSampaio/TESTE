@@ -436,4 +436,4 @@ Levando em consideração que você seja o responsável pelo gerenciamento do pr
 heroku login
 ```
 
-O comando “heroku login” é utilizado para autenticar seu usuário no CLI. Caso não saiba o usuário, entre em contato com o [Gestor]().
+- O comando “heroku login” é utilizado para autenticar seu usuário no CLI. Caso não saiba o usuário, entre em contato com o [Gestor]().
