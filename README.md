@@ -21,12 +21,12 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para instalar o tahechitservice, siga estas etapas:
 
-1. Clone o projeto em sua máquina.
+1.Clone o projeto em sua máquina.
 
 ```
 git clone <url do repositorio>
 ```
-2. Crie a virtualenv.
+2.Crie a virtualenv.
 
 Linux:
 ```
@@ -108,12 +108,12 @@ Após isso é só clicar em 'Ok' e deixar a IDE trabalhar e fazer a indexação 
 ```
 pip install -r requirements-dev.txt
 ```
-4. Criar banco de dados (Eu fiz a utilizando do postgresql, mas você pode ficar a vontade para usar o banco que desejar).
+4.Criar banco de dados (Eu fiz a utilizando do postgresql, mas você pode ficar a vontade para usar o banco que desejar).
 
 ```bash
   python manage.py migrate
 ```
-5. Start o servidor
+5.Start o servidor
 
 ```bash
   python manage.py runserver
