@@ -170,6 +170,11 @@ DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 
 Exemplos de outras conexões com outros bancos: 
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 | Engine  | Django Backend  | Django Backend  |
 | ------------- | ------------- || ------------- |
 | MySQL   | django.db.backends.mysql  || mysql://USER:PASSWORD@HOST:PORT/NAME  |
