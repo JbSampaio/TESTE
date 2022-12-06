@@ -170,15 +170,11 @@ DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/NAME
 
 Exemplos de outras conexões com outros bancos: 
 
-| Engine  | Django Backend | Django Backend |
+| Engine  | Django Backend | URL |
 | ------------- | ------------- | ------------- |
-| MySQL  | django.db.backends.mysql  | django.db.backends.mysql  |
-| Oracle  | jango.db.backends.oracle  | django.db.backends.mysql  |
+| MySQL  | django.db.backends.mysql  | mysql://USER:PASSWORD@HOST:PORT/NAME  |
+| Oracle  | jango.db.backends.oracle  | oracle://USER:PASSWORD@HOST:PORT/NAME  |
 
-| Engine  | Django Backend  | Django Backend  |
-| ------------- | ------------- || ------------- |
-| MySQL   | django.db.backends.mysql  || mysql://USER:PASSWORD@HOST:PORT/NAME  |
-| Oracle  | django.db.backends.oracle  || oracle://USER:PASSWORD@HOST:PORT/NAME  |
 
 5.Start o servidor
 
