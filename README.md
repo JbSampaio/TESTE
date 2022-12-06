@@ -172,8 +172,8 @@ Exemplos de outras conexões com outros bancos:
 
 | Engine  | Django Backend |
 | ------------- | ------------- |
-| MySQL  | Content Cell  |
-| Oracle  | Content Cell  |
+| MySQL  | django.db.backends.mysql  |
+| Oracle  | jango.db.backends.oracle  |
 
 | Engine  | Django Backend  | Django Backend  |
 | ------------- | ------------- || ------------- |
