@@ -426,4 +426,4 @@ Após isso é só clicar no 'Ok' e verificar se a configuração do servidor deu
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/638f96c86d21cd0016badb88.png" alt="Finish">
 
 
-## :gear: Configurando <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcoffops.com%2Fcomo-manter-up-apps-gratuitas-no-heroku%2F&psig=AOvVaw3wdMnce3ET2BEmC0iZkrW8&ust=1670441561883000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNDZqPHd5fsCFQAAAAAdAAAAABAE" alt="">
+## :gear: Configurando ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
