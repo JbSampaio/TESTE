@@ -442,7 +442,7 @@ O comando “heroku login” é utilizado para autenticar seu usuário no CLI. C
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908afc205fd20015099dba.png" alt="Heroku Login">
 
-Em seguida pressione 'Enter' para lhe direcionar ao site do Heroku, para você efetuar login.
+Em seguida pressione 'Enter' para lhe direcionar ao site do Heroku, para você efetuar login. <br>
 **Obs:** Considerando que você já tenha feito login uma vez no site do [Heroku](https://id.heroku.com/login) com o usuário e senha, A tela ser exibida para você deverá ser essa:
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908c6d4410e8001c991485.png" alt="Heroku Login Tela">
