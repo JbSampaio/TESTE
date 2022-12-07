@@ -466,4 +466,12 @@ Esse será o retorno, deverá ser exibido somente os links remotos fetch e push 
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908fae1bf28f002c65b9ab.png" alt="Remote Github">
 
+* Obtendo o retorno acima, você deverá agora adicionar o link remoto do repositório do projeto no Heroku: 
 
+```
+heroku git:remote -a <nome_do_app_no_heroku>
+```
+
+* Concluindo o passo a cima, repita o comando `git remote -v`, obtendo o seguinte retorno: 
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/639090f7177788000b78092c.png" alt="Remote All">
