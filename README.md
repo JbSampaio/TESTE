@@ -454,3 +454,16 @@ Em seguida pressione 'Enter' para lhe direcionar ao site do Heroku, para você e
 No seu terminal o retorno deverá ser este:
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908b04388f6a000b502504.png" alt="Heroku Login Success">
+
+* Ao realizar o login, inicialize um repositório git em um diretório novo ou existente: <br>
+**OBS:** Levando em consideração que você já clonou o projeto, você automaticamente já está ligado remotamente ao repositório do projeto no github, para conferir rode o seguinte comando:
+
+```
+git remote -v
+```
+
+Esse será o retorno, deverá ser exibido somente os links remotos fetch e push do repositório do projeto no github:
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908fae1bf28f002c65b9ab.png" alt="Remote Github">
+
+
