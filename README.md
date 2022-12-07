@@ -475,3 +475,12 @@ heroku git:remote -a <nome_do_app_no_heroku>
 * Concluindo o passo a cima, repita o comando `git remote -v`, obtendo o seguinte retorno: 
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/639090f7177788000b78092c.png" alt="Remote All">
+
+Considerendo que você tenha seguidos os passos a cima, e que você seja o responsável por gerir e atualizar o projeto, o processo de atualização, será da seguinte forma:
+
+* Realizadas as sua modificações, adiciona-as: `git add .`.
+* Faça o commmit `git commit -m 'indique_suas_alterações'`.
+* Faça o push para o GitHub: `git push origin main`.
+* Faça o push para o Heroku: `git push heroku main`.
+
+Caso esteja trabalhando em equipe, execute `git pull origin main` para baixar as demais alterações feitas pelos demais membros da equipe de desenvolvimento.
