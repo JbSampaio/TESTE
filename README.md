@@ -341,7 +341,7 @@ GOOGLE_OAUTH_SECRET=
 EMAIL_HOST_USER=
 EMAIL_HOST_PASSWORD=
 ```
-* Contate o [Gestor]() ou o [Desenvolvedor]() do projeto para ele lhe fornecer as keys das variáveis de ambiente.
+* Contate o [Gestor](https://mail.google.com/mail/u/1/?fs=1&tf=cm&source=mailto&su=Vari%C3%A1veis%20de%20Ambiente%20Tahech%20IT%20Service&to=vinicius@tahech.com&bcc=jonatas@tahech.com,tecnologia@tahech.com&body=Prezados%2C%0D%0A%0D%0ASolicito%20as%20keys%20das%20vari%C3%A1veis%20de%20ambiente%20para%20configura%C3%A7%C3%A3o%20de%20ambiente%20em%20localhost.) ou o [Desenvolvedor](https://mail.google.com/mail/u/1/?fs=1&tf=cm&source=mailto&su=Vari%C3%A1veis%20de%20Ambiente%20Tahech%20IT%20Service&to=jonatas@tahech.com&bcc=vinicius@tahech.com,tecnologia@tahech.com&body=Prezados%2C%0D%0A%0D%0ASolicito%20as%20keys%20das%20vari%C3%A1veis%20de%20ambiente%20para%20configura%C3%A7%C3%A3o%20de%20ambiente%20em%20localhost.) do projeto para ele lhe fornecer as keys das variáveis de ambiente.
 * O arquivo '.env' não deve conter no seu repositório do github pois o mesmo leva informações sensiveis de outras conexões externas que o projeto necessita.
 * Cada projeto django necessita de uma SECRET_KEY, você pode criar a sua dessa forma:
 Abra o Python Console dentro da sua IDE, rode o comando:
