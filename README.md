@@ -446,3 +446,11 @@ Em seguida pressione 'Enter' para lhe direcionar ao site do Heroku, para você e
 **Obs:** Considerando que você já tenha feito login uma vez no site do [Heroku](https://id.heroku.com/login) com o usuário e senha, A tela ser exibida para você deverá ser essa:
 
 <img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908c6d4410e8001c991485.png" alt="Heroku Login Tela">
+
+* Confirme o login, após confimação você poderá fechar tela e retornar para a sua IDE: 
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908c69205fd2001e09a1e2.png" alt="Heroku Login Confirmação">
+
+No seu terminal o retorno deverá ser este:
+
+<img src="https://s3.amazonaws.com/plugcrm-app/62b3648b6967ed00168486c4/instance_file/63908b04388f6a000b502504.png" alt="Heroku Login Success">
