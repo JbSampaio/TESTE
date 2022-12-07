@@ -479,7 +479,7 @@ heroku git:remote -a <nome_do_app_no_heroku>
 Considerendo que você tenha seguidos os passos a cima, e que você seja o responsável por gerir e atualizar o projeto, o processo de atualização, será da seguinte forma:
 
 * Realizadas as sua modificações, adiciona-as: `git add .`.
-* Faça o commmit `git commit -m 'indique_suas_alterações'`.
+* Faça o commit das alterações: `git commit -m 'indique_suas_alterações'`.
 * Faça o push para o GitHub: `git push origin main`.
 * Faça o push para o Heroku: `git push heroku main`.
 
