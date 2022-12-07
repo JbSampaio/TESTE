@@ -482,5 +482,8 @@ Considerendo que você tenha seguidos os passos a cima, e que você seja o respo
 * Faça o commit das alterações: `git commit -m 'indique_suas_alterações'`.
 * Faça o push para o GitHub: `git push origin main`.
 * Faça o push para o Heroku: `git push heroku main`.
+* Acompanhe o processo pelo terminal. 
 
 Caso esteja trabalhando em equipe, execute `git pull origin main` para baixar as demais alterações feitas pelos demais membros da equipe de desenvolvimento.
+
+## :rocket: Deploy - Realizando deploy de um projeto para o Heroku
